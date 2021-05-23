@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	
+	<type name="Magento\Quote\Model\CustomerManagement">
+		<plugin type="Eloom\PayUAttributes\Plugin\Quote\CustomerManagement"
+		        disabled="false"
+		        name="copyCustomer"
+		        sortOrder="10" />
+	</type>
+	
+	<type name="Magento\Quote\Model\BillingAddressManagement">
+		<plugin type="Eloom\PayUAttributes\Plugin\Quote\BillingAddressManagement"
+		        disabled="false"
+		        name="copyBilling"
+		        sortOrder="10" />
+	</type>
+	
+	<type name="Magento\Quote\Model\ShippingAddressManagement">
+		<plugin type="Eloom\PayUAttributes\Plugin\Quote\ShippingAddressManagement"
+		        disabled="false"
+		        name="copyShipping"
+		        sortOrder="10" />
+	</type>
+</config>

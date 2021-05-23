@@ -1,0 +1,1 @@
+define(["jquery","mage/utils/wrapper","Magento_Checkout/js/model/quote"],function(b,c,h){return function(d){return c.wrap(d,function(e,a){void 0!=a.custom_attributes&&b.each(a.custom_attributes,function(f,g){a.custom_attributes[f]=g});return e(a)})}});
