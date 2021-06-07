@@ -45,11 +45,12 @@ Antes de comenzar, asegúrese de haber instalado Composer. En su terminal, acced
 1. Agregue estas líneas a su archivo composer.json o agregue una nueva URL de repositorio si ya tiene una o más:
 
 ```
-{
 "repositories": [
-{"type": "composer", "url": "https://eloom-open.repo.repman.io"}
+    {
+        "type": "composer", 
+        "url": "https://eloom-open.repo.repman.io"
+    }
 ]
-}
 ```
 
 2. Borrar la caché del compositor:
