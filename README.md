@@ -2,6 +2,21 @@
 
 Crea el atributo "DNI Type" - Tipo de documento pagador - en Magento para cumplir con la legislación da Argentina y Colombia.
 
+## Requerimientos Técnicos
+
+| Requerimientos | Versión |
+| ------ | ----------- |
+| Magento Open Source, Adobe Commerce | >= 2.3.2, >= 2.4.x |
+| PHP, PHP-FPM | 7.2, 7.3, 7.4 |
+
+## Características y Funcionalidades
+
+- [x] inserte el campo **dniType** para tiendas na **Argentina** y **Colombia**, en las páginas:
+    
+    - [x] crear / editar cuenta de cliente;
+
+    - [x] do checkout, en modo anónimo.    
+
 ### DNI Type para Argentina
 
 |   Code    |   Description |
@@ -23,8 +38,55 @@ Crea el atributo "DNI Type" - Tipo de documento pagador - en Magento para cumpli
 |	RC 		|	Registro civil de nacimiento	|
 |	DE 		|	Documento de identificación extranjero 	|
 
-## Licencia
+## Instalando o módulo
 
+Antes de comenzar, asegúrese de haber instalado Composer. En su terminal, acceda a la carpeta raíz de Magento 2 y ejecute los siguientes comandos:
+
+1. Agregue estas líneas a su archivo composer.json o agregue una nueva URL de repositorio si ya tiene una o más:
+
+```
+{
+"repositories": [
+{"type": "composer", "url": "https://eloom-open.repo.repman.io"}
+]
+}
+```
+
+2. Borrar la caché del compositor:
+
+```
+composer clearcache
+```
+
+3. Instale el módulo y sus dependencias:
+
+```
+composer require eloom/module-payu-attributes:1.0.0
+```
+
+3. Ejecute los scripts de actualización:
+
+```
+bin/magento setup:upgrade
+```
+
+4. Ejecute scripts de inyección de dependencia:
+
+```
+bin/magento setup:di:compile
+```
+
+5. Ejecute los scripts de compilación:
+
+```
+bin/magento setup:static-content:deploy pt_BR -f
+```
+
+6.  Habilitar y liberar la caché almacenada:
+
+```
+bin/magento c:c && bin/magento c:f
+```
 
 ## Inserte el bloque "DNI Type" en el Formulario de registro de cliente
 
@@ -53,5 +115,5 @@ En el archivo "Store Theme/Magento_Customer/templates/form/edit.phtml", antes de
 * [Web site](https://www.eloom.com.br/payu)
 * [Documentación](https://docs.eloom.com.br/es/payu)
 * [Issue tracker](https://github.com/eloom/module-payu-attributes/issues)
-* [Composer packages](https://packagist.org/packages/eloom/module-payu-attributes)
+* [Composer](https://app.repman.io/organization/eloom-open/package/e984fde3-d48a-480b-8b23-b0d04ca78e1b/details)
 * [Codigo fuente](https://github.com/eloom/module-payu-attributes)
