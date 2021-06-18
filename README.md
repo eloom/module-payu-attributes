@@ -113,8 +113,8 @@ En el archivo "Store Theme/Magento_Customer/templates/form/edit.phtml", antes de
 
 ## Enlaces
 
-* [Web site](https://www.eloom.com.br/payu)
-* [Documentación](https://docs.eloom.com.br/es/payu)
+* [Web site](https://eloom.tech/payu-latam)
+* [Documentación](https://docs.eloom.tech/es/payu-latam)
 * [Issue tracker](https://github.com/eloom/module-payu-attributes/issues)
 * [Composer](https://app.repman.io/organization/eloom-open/package/e984fde3-d48a-480b-8b23-b0d04ca78e1b/details)
 * [Codigo fuente](https://github.com/eloom/module-payu-attributes)
