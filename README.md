@@ -48,7 +48,7 @@ Antes de comenzar, asegúrese de haber instalado Composer. En su terminal, acced
 "repositories": [
     {
         "type": "composer", 
-        "url": "https://eloom-open.repo.repman.io"
+        "url": "https://eloom.repo.repman.io"
     }
 ]
 ```
