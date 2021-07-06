@@ -80,7 +80,7 @@ bin/magento setup:di:compile
 5. Ejecute los scripts de compilación:
 
 ```
-bin/magento setup:static-content:deploy pt_BR -f
+bin/magento setup:static-content:deploy -f
 ```
 
 6.  Habilitar y liberar la caché almacenada:
@@ -116,5 +116,5 @@ En el archivo "Store Theme/Magento_Customer/templates/form/edit.phtml", antes de
 * [Web site](https://eloom.tech/payu-latam)
 * [Documentación](https://docs.eloom.tech/es/payu-latam)
 * [Issue tracker](https://github.com/eloom/module-payu-attributes/issues)
-* [Composer](https://app.repman.io/organization/eloom-open/package/e984fde3-d48a-480b-8b23-b0d04ca78e1b/details)
+* [Composer](https://app.repman.io/organization/eloom/package/e984fde3-d48a-480b-8b23-b0d04ca78e1b/details)
 * [Codigo fuente](https://github.com/eloom/module-payu-attributes)
