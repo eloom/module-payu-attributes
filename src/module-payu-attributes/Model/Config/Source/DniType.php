@@ -3,10 +3,10 @@
 * 
 * PayU Attributes para Magento 2
 * 
-* @category     Ã©lOOm
+* @category     elOOm
 * @package      Modulo PayUAttributes
 * @copyright    Copyright (c) 2021 Ã©lOOm (https://eloom.tech)
-* @version      1.0.0
+* @version      1.0.1
 * @license      https://eloom.tech/license
 *
 */
@@ -40,7 +40,7 @@ class DniType extends AbstractSource {
 	public function getAllOptions() {
 		$currency = $this->scopeConfig->getValue('currency/options/default', ScopeInterface::SCOPE_STORE, null);
 		
-		if(!in_array($currency, $this->allowedCurrencies)) {
+		if (!in_array($currency, $this->allowedCurrencies)) {
 			throw new \Exception(sprintf(__("%s is not an allowed currency."), $currency));
 		}
 		

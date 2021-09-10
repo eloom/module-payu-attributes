@@ -3,10 +3,10 @@
 * 
 * PayU Attributes para Magento 2
 * 
-* @category     Ã©lOOm
+* @category     elOOm
 * @package      Modulo PayUAttributes
 * @copyright    Copyright (c) 2021 Ã©lOOm (https://eloom.tech)
-* @version      1.0.0
+* @version      1.0.1
 * @license      https://eloom.tech/license
 *
 */

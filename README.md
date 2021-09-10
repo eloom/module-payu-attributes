@@ -58,7 +58,7 @@ composer clearcache
 ```
 
 ```
-composer require eloom/module-payu-attributes:1.0.0
+composer require eloom/module-payu-attributes:1.0.1
 ```
 
 ```

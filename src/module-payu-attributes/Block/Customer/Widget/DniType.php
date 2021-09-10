@@ -3,10 +3,10 @@
 * 
 * PayU Attributes para Magento 2
 * 
-* @category     Ã©lOOm
+* @category     elOOm
 * @package      Modulo PayUAttributes
 * @copyright    Copyright (c) 2021 Ã©lOOm (https://eloom.tech)
-* @version      1.0.0
+* @version      1.0.1
 * @license      https://eloom.tech/license
 *
 */
@@ -46,12 +46,12 @@ class DniType extends AbstractWidget {
 	 * @param Session $customerSession
 	 * @param array $data
 	 */
-	public function __construct(Context $context,
-	                            Address $addressHelper,
-	                            CustomerMetadataInterface $customerMetadata,
+	public function __construct(Context                     $context,
+	                            Address                     $addressHelper,
+	                            CustomerMetadataInterface   $customerMetadata,
 	                            CustomerRepositoryInterface $customerRepository,
-	                            Session $customerSession,
-	                            array $data = []) {
+	                            Session                     $customerSession,
+	                            array                       $data = []) {
 		$this->customerSession = $customerSession;
 		$this->customerRepository = $customerRepository;
 		
