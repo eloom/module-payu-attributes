@@ -53,37 +53,25 @@ Antes de comenzar, asegúrese de haber instalado Composer. En su terminal, acced
 ]
 ```
 
-2. Borrar la caché del compositor:
-
 ```
 composer clearcache
 ```
-
-3. Instale el módulo y sus dependencias:
 
 ```
 composer require eloom/module-payu-attributes:1.0.0
 ```
 
-3. Ejecute los scripts de actualización:
-
 ```
 bin/magento setup:upgrade
 ```
-
-4. Ejecute scripts de inyección de dependencia:
 
 ```
 bin/magento setup:di:compile
 ```
 
-5. Ejecute los scripts de compilación:
-
 ```
-bin/magento setup:static-content:deploy -f
+bin/magento setup:static-content:deploy
 ```
-
-6.  Habilitar y liberar la caché almacenada:
 
 ```
 bin/magento c:c && bin/magento c:f
@@ -116,5 +104,6 @@ En el archivo "Store Theme/Magento_Customer/templates/form/edit.phtml", antes de
 * [Web site](https://eloom.tech/payu-latam)
 * [Documentación](https://docs.eloom.tech/es/payu-latam)
 * [Issue tracker](https://github.com/eloom/module-payu-attributes/issues)
-* [Composer](https://app.repman.io/organization/eloom/package/e984fde3-d48a-480b-8b23-b0d04ca78e1b/details)
+* [Packagist](https://packagist.org/packages/eloom/module-payu-attributes)
+* [Repmain](https://app.repman.io/organization/eloom/package/e984fde3-d48a-480b-8b23-b0d04ca78e1b/details)
 * [Codigo fuente](https://github.com/eloom/module-payu-attributes)
