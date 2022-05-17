@@ -4,10 +4,10 @@ Crea el atributo "DNI Type" - Tipo de documento pagador - en Magento para cumpli
 
 ## Requerimientos Técnicos
 
-| Requerimientos | Versión |
-| ------ | ----------- |
-| Magento Open Source, Adobe Commerce | >= 2.3.2, >= 2.4.x |
-| PHP, PHP-FPM | 7.2, 7.3, 7.4 |
+| Requerimientos | Versión                |
+| ------ |------------------------|
+| Magento Open Source, Adobe Commerce | ~2.3.2, ~2.4           |
+| PHP, PHP-FPM | ~7.2, ~7.3, ~7.4, ~8.1 |
 
 ## Características y Funcionalidades
 
