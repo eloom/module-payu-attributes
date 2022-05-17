@@ -57,6 +57,12 @@ Antes de comenzar, asegúrese de haber instalado Composer. En su terminal, acced
 composer clearcache
 ```
 
+!!! Version ~2.4.4 - Adobe Commerce / Magento Open Source
+```
+composer require eloom/module-payu-attributes:2.0.0
+```
+
+!!! Version ~2.3.2 e ~2.4.3 - Adobe Commerce / Magento Open Source
 ```
 composer require eloom/module-payu-attributes:1.0.1
 ```
